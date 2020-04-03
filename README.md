@@ -50,7 +50,7 @@ computer for development with Docker and docker-compose.
 
 11. Your app should be running in localhost:80 (in case docker is running in a different host, replace `localhost` by docker's host).
 
-12. Read the [Usage](#usage) section to understand how to use the service.
+12. Now that your service is running read the [Usage](#usage) section to understand how to use the service.
 
 
 # Usage
