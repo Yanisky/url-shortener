@@ -1,5 +1,7 @@
 # URL Shortener Service
 
+
+
 # Developer Setup
 
 ## Prerequisites
@@ -17,7 +19,7 @@ computer for development with Docker and docker-compose.
 
 2. In the root folder of the repository rename `.env.example` to `.env`.
 
-4. Defaults in .example file are be enough to get you going.
+4. Defaults in .example file are enough to get you going.
 
 5. In the root folder of the repository, run:
     
