@@ -50,6 +50,8 @@ computer for development with Docker and docker-compose.
 
 11. Your app should be running in localhost:80 (in case docker is running in a different host, replace `localhost` by docker's host).
 
+12. Read the [Usage](#usage) section to understand how to use the service.
+
 
 # Usage
 
@@ -57,7 +59,7 @@ In order to use the redirect feature you need to create some URLs first through 
 
 ## API
 
-If your docker host is not running under localhost you should replace all instances of localhost by your docker's host IP or name.
+If your docker host is not running under localhost you should replace all instances of `localhost` by your docker's host IP or name.
 
 ### Create URLs
 
