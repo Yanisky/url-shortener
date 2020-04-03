@@ -7,7 +7,7 @@ Table of contents
    * [Developer Setup](#developer-setup)
       * [Prerequisites](#prerequisites)
       * [Installation](#installation)
-   * [USAGE](#usage)
+   * [Usage](#usage)
       * [API](#api)
         * [Create URLs](#create-urls)
         * [Get Usage stats](#get-usage-stats)
@@ -153,3 +153,4 @@ Right now the app is running with Redis for caching and PostgreSQL for storage. 
 With the interfaces under `./pkg/repository.go` it's possible to use the cache, store, and analytics separately, in this case PostgreSQL is used for both storage and analytics and Redis for cache but it's possible to implement an Elasticsearch repository that matches the analytics interface and pass it to the service (TODO).
 
 Right now PostgreSQL is a single point of failure but it's possible to improve on that and implement something like [this](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/). I do like IDs as they are easy to encode with Base62 to get small url "hashes".
+
