@@ -166,3 +166,5 @@ Right now PostgreSQL is a single point of failure but it's possible to improve o
 * Better SQL queries for counts
 * Add a solution that uses Flickr's cheap ids.
 * Make an analytics repository that uses Elasticsearch
+* Add unit tests for `./api` code
+* Make an api client that can be used to run integration tests
