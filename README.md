@@ -50,16 +50,14 @@ computer for development with Docker and docker-compose.
 
 11. Your app should be running in localhost:80 (in case docker is running in a different host, replace `localhost` by docker's host).
 
-12. To add urls to the service make a POST request to 'localhost/api/v1/urls' with a json payload of {"url":"www.google.com"}. You will get a hash back. e.g. {"data":{"hash":"GW8OM2O","url":"http://www.google.com","created_at":"2020-04-03T19:05:43.870439+01:00"}}
-
-13. With the hash that you get back, browse to localhost/{hash} and you'll be redirected. e.g localhost/GW8OM2O
-
 
 # Usage
 
 In order to use the redirect feature you need to create some URLs first through the api.
 
 ## API
+
+If your docker host is not running under localhost you should replace all instances of localhost by your docker's host IP or name.
 
 ### Create URLs
 
