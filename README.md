@@ -51,4 +51,4 @@ To run integration tests for Redis:
 
 To run integration tests for PostgreSQL:
 
-    $ go test -v ./pkg/postgres/... -postgres -test_postgres_url=postgres://postgresdangerouspoweruser:Password123!@localhost:5432//urlshortener
+    $ go test -v ./pkg/postgres/... -postgres -test_postgres_url=postgres://postgresdangerouspoweruser:Password123!@localhost:5432/urlshortener
