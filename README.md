@@ -15,7 +15,7 @@ Table of contents
    * [Testing](#testing)
    	  * [Unit tests](#unit-tests)
    	  * [Integration tests](#integration-tests)
-	* [Remarks](#remarks)
+   * [Remarks](#remarks)
 
 # Developer Setup
 
