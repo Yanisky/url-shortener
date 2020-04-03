@@ -16,6 +16,7 @@ Table of contents
    	  * [Unit tests](#unit-tests)
    	  * [Integration tests](#integration-tests)
    * [Remarks](#remarks)
+   * [TODO](#todo)
 
 # Developer Setup
 
@@ -154,3 +155,14 @@ With the interfaces under `./pkg/repository.go` it's possible to use the cache, 
 
 Right now PostgreSQL is a single point of failure but it's possible to improve on that and implement something like [this](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/). I do like IDs as they are easy to encode with Base62 to get small url "hashes".
 
+"short" column in database might be unnecessary.
+
+
+# TODO
+
+* Instrumentation, pass logger to services and repositories
+* TLS
+* Comments for better godocs
+* Better SQL queries for counts
+* Add a solution that uses Flickr's cheap ids.
+* Make an analytics repository that uses Elasticsearch
