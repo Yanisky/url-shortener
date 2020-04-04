@@ -157,6 +157,8 @@ Right now PostgreSQL is a single point of failure but it's possible to improve o
 
 "short" column in database might be unnecessary.
 
+Integer IDs should not leak in JSON API. If a user gets some integer IDs and its hashes it would be fairly easy for him/her to determine the salt that has been used in the Base62 enconding. 
+
 
 # TODO
 
